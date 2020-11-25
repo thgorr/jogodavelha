@@ -450,6 +450,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2101415458}
     m_Modifications:
+    - target: {fileID: 200766669232444063, guid: 58feb0625c9e6c942bb2a638dae9cfec, type: 3}
+      propertyPath: Line
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7216154593929117280, guid: 58feb0625c9e6c942bb2a638dae9cfec, type: 3}
       propertyPath: m_Name
       value: 00 (1)
@@ -863,11 +867,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 200766669232444063, guid: 58feb0625c9e6c942bb2a638dae9cfec, type: 3}
       propertyPath: Line
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 200766669232444063, guid: 58feb0625c9e6c942bb2a638dae9cfec, type: 3}
       propertyPath: Column
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7216154593929117280, guid: 58feb0625c9e6c942bb2a638dae9cfec, type: 3}
       propertyPath: m_Name
@@ -1112,6 +1116,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2101415458}
   - component: {fileID: 2101415457}
+  - component: {fileID: 2101415459}
   m_Layer: 0
   m_Name: BoardLogic
   m_TagString: Untagged
@@ -1157,6 +1162,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2101415459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101415456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d56eaa4e1381f49bb9558511d2c594, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7216154593616760824
 PrefabInstance:
   m_ObjectHideFlags: 0

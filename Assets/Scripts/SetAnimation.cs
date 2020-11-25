@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class SetAnimation : MonoBehaviour
 {
-    public Animator animator;
+    public Animator animatorX;
+    public Animator animatorO;
 
     private ClickManager clicked;
 
 
     void Start()
     {
-        animator = gameObject.GetComponent<Animator>();
-        
+        animatorX = gameObject.GetComponent<Animator>();
+        animatorO = gameObject.GetComponent<Animator>();
     }
 
     private void OnMouseDown()
@@ -20,7 +21,7 @@ public class SetAnimation : MonoBehaviour
         if (clicked)
         {
             
-            animator.SetBool("hit", true);
+            animatorX.SetBool("hit", true);
             Debug.Log(name + " was clicked.");
         }
         //anim.SetTrigger("AnimHit");
